@@ -1,34 +1,3 @@
-// TODO: [
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/d/d0/HMGTurreticon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/c/c7/Shieldrelayicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/a/ac/Teslaicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/5/5d/Minefieldicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/7f/Fireminefieldicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/88/MGsentryicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/e3/Gatlingsentryicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/5/5e/Mortarsentryicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/b/ba/Autocannoasentryicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/3/3b/Missilesentryicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/27/EMSmortaricon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/2b/OrbitalGatlingicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/e6/OrbitalAirbursticon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/1/1a/Orbital120icon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/f/fb/Orbital380icon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/2b/OrbitalWalkingicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/74/OrbitalLasericon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/e0/OrbitalRailcannonicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/6/6d/OrbitalPrecisionicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/3/36/OrbitalGasicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/1/12/OrbitalEMSicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/ef/OrbitalSmokeicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/4/4d/EagleStrafingicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/9/94/EagleAirstrikeicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/79/EagleClusterbombicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/0/00/EagleSmokeicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/f/fd/EagleRocketpodicon.png",
-//   "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/2d/Eagle500icon.png"
-// ]
 export type Direction = 'down' | 'left' | 'right' | 'up' | undefined;
 
 export type Category = {
