@@ -1,3 +1,6 @@
+import arrowEmpty from "../assets/arrow-empty.svg";
+import arrowFilled from "../assets/arrow-filled.svg";
+
 type StratagemArrowProps = {
   currentStratagemIndex?: number;
   stratagemDirection?: string;
@@ -9,19 +12,33 @@ const StratagemArrow = ({
   controlPosition,
   stratagemDirection,
 }: StratagemArrowProps) => {
-    console.log(currentStratagemIndex, controlPosition);
+  const getArrowDirection = () => {
+    switch (stratagemDirection) {
+      case "down":
+        return "";
+      case "up":
+        return "rotate-180";
+      case "left":
+        return "rotate-90";
+      case "right":
+        return "-rotate-90";
+      default:
+        return "";
+    }
+  };
+
+  const arrowDirection = getArrowDirection();
+
   return (
-    <p
+    <img
+      src={
+        typeof currentStratagemIndex !== 'undefined' && currentStratagemIndex > controlPosition
+          ? arrowFilled
+          : arrowEmpty
+      }
       key={`direction${controlPosition}`}
-      className={`${
-        typeof currentStratagemIndex !== "undefined" &&
-        currentStratagemIndex > controlPosition
-          ? "font-bold"
-          : ""
-      }`}
-    >
-      {stratagemDirection}
-    </p>
+      className={`${arrowDirection} w-12`}
+    />
   );
 };
 

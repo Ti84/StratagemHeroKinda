@@ -13,7 +13,12 @@ export default {
       },
       animation: {
         wiggle: 'wiggle 0.25s linear infinite',
-      }
+      },
+      colors: {
+        'purple': '#27005a',
+        'darkpurple': '#150030',
+        'brightblue': '#00d0de',
+      },
     },
   },
   plugins: [],

@@ -9,7 +9,8 @@ type GameBoardProps = {
 const GameBoard = ({ incorrectKey, children, setIncorrectKey }: GameBoardProps) => {
   const [isWigglin, setIsWigglin] = useState(false);
 
-  // WORK ON THIS.
+  // Needs a refactor. Start animation over on new key input.
+  // Make it so it is not effect driven.
   useEffect(() => {
     if (incorrectKey) {
       setIsWigglin(true);
@@ -24,7 +25,7 @@ const GameBoard = ({ incorrectKey, children, setIncorrectKey }: GameBoardProps) 
 
   return (
     <div
-      className={isWigglin ? "animate-[wiggle_0.25s_linear_infinite]" : ""}
+      className={`flex justify-center mt-7 ${isWigglin ? "animate-[wiggle_0.25s_linear_infinite]" : ""}`}
     >
       {children}
     </div>

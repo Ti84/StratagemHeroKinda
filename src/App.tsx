@@ -12,7 +12,7 @@ import success from "./assets/sounds/success.wav";
 // REFACTOR code
 // Sound management
 // Attributions
-// Style
+// Style --- dampen colors
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [stratagemList, setStratagemList] = useState<Stratagem[]>([]);
@@ -104,7 +104,7 @@ function App() {
   return (
     <main>
       {isPlaying ? (
-        <section>
+        <section className="flex-col justify-center">
           <UpcomingStratagem stratagemList={stratagemList} />
           <GameBoard
             incorrectKey={incorrectKey}
@@ -126,7 +126,7 @@ function App() {
         </section>
       ) : (
         <input
-          className="text-white bg-blue-700 cursor-pointer hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          className="text-white bg-brightblue cursor-pointer hover:bg-brightblue focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:brightblue dark:hover:brightblue focus:outline-none dark:focus:ring-blue-800"
           type="button"
           value="Play"
           onClick={() => startGame()}
