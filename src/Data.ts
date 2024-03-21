@@ -189,67 +189,67 @@ export const ORBITALS: Stratagem[] = [
     name: "Orbital Gatling Barrage",
     code: ["right", "down", "left", "up", "up"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/86/Reinforceicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/2b/OrbitalGatlingicon.png"
   },
   {
     name: "Orbital Airburst Strike",
     code: ["right", "right", "right"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/a/a9/SOSicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/e6/OrbitalAirbursticon.png"
   },
   {
     name: "Orbital 120MM HE Barrage",
     code: ["right", "right", "down", "left", "right", "down"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/1/1a/Orbital120icon.png"
   },
   {
     name: "Orbital 380MM HE Barrage",
     code: ["right", "down", "up", "up", "left", "down", "down"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/f/fb/Orbital380icon.png"
   },
   {
     name: "Orbital Walking Barrage",
     code: ["right", "down", "right", "down", "right", "down"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/2b/OrbitalWalkingicon.png"
   },
   {
     name: "Orbital Laser",
     code: ["right", "down", "up", "right", "down"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/74/OrbitalLasericon.png"
   },
   {
     name: "Orbital Railcannon Strike",
     code: ["right", "up", "down", "down", "right"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/e0/OrbitalRailcannonicon.png"
   },
   {
     name: "Orbital Precision Strike",
     code: ["right", "right", "up"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/6/6d/OrbitalPrecisionicon.png"
   },
   {
     name: "Orbital Gas Strike",
     code: ["right", "right", "down", "right"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/3/36/OrbitalGasicon.png"
   },
   {
     name: "Orbital EMS Strike",
     code: ["right", "right", "left", "down"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/1/12/OrbitalEMSicon.png"
   },
   {
     name: "Orbital Smoke Strike",
     code: ["right", "right", "down", "up"],
     category_id: 3,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/ef/OrbitalSmokeicon.png"
   },
 ];
 
@@ -258,19 +258,19 @@ export const EAGLES: Stratagem[] = [
     name: "Eagle Strafing Run",
     code: ["up", "right", "right"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/4/4d/EagleStrafingicon.png"
   },
   {
     name: "Eagle Airstrike",
     code: ["up", "right", "down", "right"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/9/94/EagleAirstrikeicon.png"
   },
   {
     name: "Eagle Cluster Bomb",
     code: ["up", "right", "down", "down", "right"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/79/EagleClusterbombicon.png"
   },
   {
     name: "Eagle Napalm Airstrike",
@@ -279,28 +279,22 @@ export const EAGLES: Stratagem[] = [
     icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
   },
   {
-    name: "Jump Pack",
-    code: ["down", "up", "up", "down", "up"],
-    category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
-  },
-  {
     name: "Eagle Smoke Strike",
     code: ["up", "right", "up", "down"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/0/00/EagleSmokeicon.png"
   },
   {
     name: "Eagle 110MM Rocket Pods",
     code: ["up", "right", "up", "left"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/f/fd/EagleRocketpodicon.png"
   },
   {
     name: "Eagle 500KG Bomb",
     code: ["up", "right", "down", "down", "down"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/2d/Eagle500icon.png"
   },
   {
     name: "Eagle Rearm",
@@ -312,37 +306,37 @@ export const EAGLES: Stratagem[] = [
     name: "Machine Gun Sentry",
     code: ["down", "up", "right", "right", "up"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/88/MGsentryicon.png"
   },
   {
     name: "Gatling Sentry",
     code: ["down", "up", "right", "left"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/e/e3/Gatlingsentryicon.png"
   },
   {
     name: "Mortar Sentry",
     code: ["down", "up", "right", "right", "down"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/5/5e/Mortarsentryicon.png"
   },
   {
     name: "Autocannon Sentry",
     code: ["down", "up", "right", "up", "left", "up"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/b/ba/Autocannoasentryicon.png"
   },
   {
     name: "Rocket Sentry",
     code: ["down", "up", "right", "right", "left"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/3/3b/Missilesentryicon.png"
   },
   {
     name: "EMS Mortar Sentry",
     code: ["down", "up", "right", "down", "right"],
     category_id: 4,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/27/EMSmortaricon.png"
   },
 ];
 
@@ -351,31 +345,31 @@ export const DEFENSE: Stratagem[] = [
     name: "HMG Emplacement",
     code: ["down", "up", "left", "right", "right", "left"],
     category_id: 5,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/d/d0/HMGTurreticon.png"
   },
   {
     name: "Shield Generator Relay",
     code: ["down", "down", "left", "right", "left", "right"],
     category_id: 5,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/c/c7/Shieldrelayicon.png"
   },
   {
     name: "Tesla Tower",
     code: ["down", "up", "right", "up", "left", "right"],
     category_id: 5,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/a/ac/Teslaicon.png"
   },
   {
     name: "Anti-Personnel Minefield",
     code: ["down", "left", "up", "right"],
     category_id: 5,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/5/5d/Minefieldicon.png"
   },
   {
     name: "Incendiary Mines",
     code: ["down", "left", "left", "down"],
     category_id: 5,
-    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/8/8d/EagleNapalmicon.png"
+    icon: "https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/7f/Fireminefieldicon.png"
   },
 ];
 
